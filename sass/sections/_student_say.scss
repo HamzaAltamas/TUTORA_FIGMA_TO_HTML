@@ -1,0 +1,227 @@
+.student_say_container {
+    padding-top: 50px;
+
+    .studentsay_header {
+        p {
+            font-style: normal;
+            font-weight: bold;
+            font-size: 41.67px;
+            line-height: 48px;
+            text-align: center;
+
+            color: #263238;
+        }
+    }
+
+}
+
+.student_say_slide_container {
+    position: relative;
+
+    img {
+        left: 0;
+        position: absolute;
+        z-index: -1;
+        width: 1073px;
+        height: auto;
+    }
+
+    .students_slider {
+        position: relative;
+
+
+        .student_items {
+            padding: 28px;
+            width: 798px !important;
+            height: 488px;
+            background-color: #fff;
+            border-radius: 15px;
+            -webkit-border-radius: 15px;
+            -moz-border-radius: 15px;
+            -ms-border-radius: 15px;
+            -o-border-radius: 15px;
+            box-shadow: 4px 24px 60px rgba(109, 141, 173, 0.25);
+            position: relative;
+            z-index: 9;
+            margin-left: 13px;
+
+            .student_img {
+                width: 321px;
+                height: 432px;
+                background: url(../images/owner1.jpg);
+                background-size: cover;
+                background-position: center;
+                background-repeat: no-repeat;
+                border-radius: 15px;
+                -webkit-border-radius: 15px;
+                -moz-border-radius: 15px;
+                -ms-border-radius: 15px;
+                -o-border-radius: 15px;
+            }
+
+            .student_txt {
+                padding-left: 50px;
+
+                p {
+                    font-style: normal;
+                    font-weight: normal;
+                    font-size: 16.74px;
+                    line-height: 20px;
+
+                    color: rgba(38, 50, 56, 0.7);
+                }
+
+                span {
+                    font-style: normal;
+                    font-weight: normal;
+                    font-size: 16.74px;
+                    line-height: 20px;
+
+                    color: rgba(38, 50, 56, 0.7);
+                }
+
+                .student_name {
+                    font-style: normal;
+                    font-weight: bold;
+                    font-size: 16.74px;
+                    line-height: 19px;
+
+                    color: #263238;
+                }
+
+                .commontext_style {
+                    font-style: normal;
+                    font-weight: normal;
+                    font-size: 11.95px;
+                    line-height: 8px;
+                    font-weight: bold;
+
+                    color: rgba(38, 50, 56, 0.7);
+                }
+
+                .rating {
+                    i {
+                        color: #ffcb45;
+                        margin-left: 5px;
+                    }
+                }
+            }
+        }
+    }
+
+    .student_img2 {
+        background-image: url(../images/owner2.jpg) !important;
+    }
+
+    .student_img3 {
+        background-image: url(../images/owner3.jpg) !important;
+    }
+
+    .student_img4 {
+        background-image: url(../images/owner2.jpg) !important;
+    }
+}
+
+.slick-slide {
+    display: flex !important;
+    justify-content: center !important;
+    position: relative;
+}
+
+.slick-dots {
+    position: absolute;
+    right: 100px;
+    top: 50%;
+
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+
+    li {
+        width: 16px;
+        height: 16px;
+        background-color: #e5d6ff;
+        border-radius: 50%;
+        -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
+        -ms-border-radius: 50%;
+        -o-border-radius: 50%;
+        margin-top: 8px;
+    }
+
+    button {
+        color: transparent;
+        outline: none;
+        border: none;
+        width: 16px !important;
+        height: 16px !important;
+        background-color: transparent;
+
+    }
+
+    .slick-active {
+        background-color: #7f3dff;
+    }
+}
+
+.ready_to_start_div {
+    padding: 62px 53px;
+    background: linear-gradient(141deg, rgba(128, 49, 255, 1) 35%, rgba(5, 57, 255, 1) 85%);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+    width: 100% !important;
+   .strt_btn{
+       padding: 16px 35px;
+       background: #FFFFFF;
+box-shadow: 4px 0px 12px rgba(127, 48, 255, 0.3);
+
+border-radius: 5px;
+       p{
+        font-style: normal;
+        font-weight: normal;
+        font-size: 13.95px;
+        font-weight: bold;
+        line-height: 17px;
+        /* identical to box height */
+        
+        
+        color: #7F30FF !important;
+        margin-bottom:  0 !important;
+       }
+   }
+    p {
+        font-style: normal;
+        font-weight: bold;
+        font-size: 34.72px;
+        line-height: 40px;
+        /* identical to box height */
+
+        text-align: center;
+
+        color: #FFFFFF;
+        text-align: left;
+    }
+
+    span {
+        font-style: normal;
+        font-weight: normal;
+        font-size: 13.95px;
+        line-height: 17px;
+
+        color: rgba(255, 255, 255, 0.8);
+        font-style: normal;
+        font-weight: normal;
+        font-size: 13.95px;
+        line-height: 17px;
+
+        color: rgba(255, 255, 255, 0.8);
+    }
+}

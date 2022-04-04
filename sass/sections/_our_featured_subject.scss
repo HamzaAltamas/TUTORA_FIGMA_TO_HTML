@@ -1,0 +1,122 @@
+.featured_subject_container {
+    background-image: url(../images/banner_bg.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 50px;
+    padding-bottom: 30px;
+
+    .feature_sub_txt {
+        width: 100%;
+
+        .featured_sub_heading {
+            font-style: normal;
+            font-weight: bold;
+            font-size: 41.67px;
+            line-height: 48px;
+            /* identical to box height */
+
+
+            color: #FFFFFF;
+        }
+
+        .featured_txt {
+            font-style: normal;
+            font-weight: normal;
+            font-size: 16.74px;
+            line-height: 20px;
+
+            color: rgba(255, 255, 255, 0.8);
+        }
+
+        .getstartbtn {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 178px;
+            height: 52px;
+            background: #212525;
+            box-shadow: 4px 24px 60px rgba(109, 141, 173, 0.25);
+            border-radius: 5px;
+            color: #fff;
+            margin-top: 10px;
+        }
+
+    }
+
+    .feature_sub_items {
+        padding: 16px 12px;
+        width: 168px;
+        height: 216px;
+
+        background: #FFFFFF;
+        /* Master */
+
+        box-shadow: 4px 24px 60px rgba(109, 141, 173, 0.25);
+        border-radius: 10px;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        &:hover{
+            box-shadow: 4px 24px 60px rgba(5, 23, 41, 0.795);
+        }
+        .feature_icons{
+            width: 80px;
+            height: 80px;
+            border-radius: 50%;
+            background: #2B2B2B;
+            -webkit-border-radius: 50%;
+            -moz-border-radius: 50%;
+            -ms-border-radius: 50%;
+            -o-border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+}
+.feature_sub_card_heading{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16.74px;
+    line-height: 17px;
+    /* identical to box height */
+    
+    
+    color: #263238;
+}
+.feature_sub_card_txt{
+    font-style: normal;
+font-weight: normal;
+font-size: 10px;
+line-height: 12px;
+text-align: center;
+font-weight: bold;
+color: rgba(0, 0, 0, 0.6);
+}
+    }
+    .feature_item_2{
+        .feature_icons{
+            background-color: #0038ff;
+        }
+    }
+    .feature_item_3{
+        .feature_icons{
+            background-color: #50cb93;
+        }
+    }
+    .feature_item_4{
+        .feature_icons{
+            background-color: #ff3d3d;
+        }
+    }
+    .feature_item_5{
+        .feature_icons{
+            background-color: #ffa800;
+        }
+    }
+    .feature_item_6{
+        .feature_icons{
+            background-color: #7f30ff;
+        }
+    }
+}

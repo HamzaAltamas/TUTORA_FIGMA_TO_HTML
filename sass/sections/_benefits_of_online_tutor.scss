@@ -1,0 +1,59 @@
+.benefit_container {
+    padding: 192px 0;
+    background-image: url(../images/benefitBg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    .benefit_heading {
+        font-style: normal;
+        font-weight: bold;
+        font-size: 41.67px;
+        line-height: 48px;
+
+        color: #FFFFFF;
+    }
+
+    .video_box {
+        width: 588px !important;
+        height: 358px !important;
+        background-image: url(../images/unsplash_PeUJyoylfe4.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+
+        &::after {
+            position: absolute;
+            content: '';
+
+            background-color: rgba(0, 0, 0, 0.479);
+            top: 0;
+            left: 0;
+        }
+    }
+
+    .benefit_online_tutor_header {
+        font-style: normal;
+        font-weight: bold;
+        font-size: 20.09px;
+        line-height: 23px;
+        /* identical to box height */
+
+
+        color: #FFFFFF;
+        padding-left: 15px;
+    }
+
+    .benefit_online_tutor_txt {
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16.74px;
+        line-height: 20px;
+        padding-left: 15px;
+        color: rgba(255, 255, 255, 0.8);
+    }
+}
